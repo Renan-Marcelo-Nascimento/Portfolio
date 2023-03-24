@@ -1,6 +1,6 @@
 body{
-    background-color: black;
-    color: white;
+    background-color: #1B4965;
+    color: #CAE9FF;
 
 }
 
@@ -8,9 +8,9 @@ img{
     border-radius: 16px;
     width: 460px;
     height: 600px;
-    box-shadow: 10px -10px 6px cyan;
+    box-shadow: 10px -10px 6px #BEE9E8;
 }
 
 strong{
-    color: cyan;
+    color: #5FA8D3;
 }
