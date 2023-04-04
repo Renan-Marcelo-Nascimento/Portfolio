@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap');
 
 *{
     margin: 0;
@@ -47,3 +48,22 @@ img{
     font-size: 24px;
     font-family: 'Montserrat', sans-serif;
 }
+
+.apresentacao__links{
+    display: flex;
+    
+    justify-content: space-between;
+}
+
+.apresentacao__links__link{
+    background-color: #22d4fd;
+    width: 180px;
+    padding: 21.5px 0;
+    text-align: center;
+    border-radius: 16px;
+    text-decoration: none;
+    color: black;
+    font-family:'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
