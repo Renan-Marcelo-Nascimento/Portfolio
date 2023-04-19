@@ -17,7 +17,7 @@ body{
 
 }
 
-img{
+.apresentacao__conteudo__foto{
     border-radius: 16px;
     width: 35%;
     height: 50%;
@@ -67,6 +67,10 @@ img{
 }
 
 .apresentacao__links__link{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center; 
     border: 3px solid #22d4fd;
     width: 380px;
     padding: 21.5px 0;
@@ -78,3 +82,7 @@ img{
     font-weight: 600;
 }
 
+.apresentacao__links__link:hover{
+        background-color: #272727;
+
+}
