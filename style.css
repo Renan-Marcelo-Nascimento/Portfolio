@@ -94,6 +94,7 @@ body{
 
 
 .apresentacao__conteudo__foto:hover{
+  content: url("assets/renan2.jpg");
   transform: scale(1.1);
   box-shadow: 11px -11px 7px whitesmoke;
   transition: .2s;
