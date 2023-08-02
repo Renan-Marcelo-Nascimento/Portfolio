@@ -76,7 +76,7 @@ body{
     padding: 21.5px 0;
     text-align: center;
     border-radius: 8px;
-    text-decoration: none;
+    text-decoration: none; 
     color: white;
     font-family:'Montserrat', sans-serif;
     font-weight: 600;
@@ -85,4 +85,16 @@ body{
 .apresentacao__links__link:hover{
         background-color: #272727;
 
+}
+
+.apresentacao__links__link:active{
+    background-color: #22d4fd;
+
+}
+
+
+.apresentacao__conteudo__foto:hover{
+  transform: scale(1.1);
+  box-shadow: 11px -11px 7px whitesmoke;
+  transition: .2s;
 }
