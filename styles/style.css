@@ -50,6 +50,13 @@ body{
     box-shadow: 10px -10px 6px #22d4fd;
 }
 
+.curriculo__conteudo__foto{
+    border-radius: 16px;
+    width: 25%;
+    height: 50%;
+    box-shadow: 5px -5px 3px #22d4fd;
+}
+
 .destaque-titulo{
     color: #22d4fd;
 }
@@ -68,7 +75,8 @@ body{
     padding: 5% 15%;
     display: flex;
     align-items: flex-start;
-    gap: 40px;
+    flex-grow: 2;
+    justify-content: space-between;
 }
 
 .apresentacao__conteudo{
@@ -76,6 +84,15 @@ body{
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
+}
+
+.curriculo__conteudo{
+    width: 650px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    flex-grow: 2;
 }
 
 .apresentacao__conteudo__titulo{
