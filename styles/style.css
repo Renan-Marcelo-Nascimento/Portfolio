@@ -5,9 +5,10 @@
 
 
 :root{
-    --cor-primaria: #000000;
-    --cor-secundaria:  #f6f6f6;
-    --cor-terciaria: #22d4fd;
+    --cor-primaria: #343434;
+    --cor-secundaria:  #F3F3F3;
+    --cor-terciaria: #E9DCBE;
+    --cor-hover: #8E8B82;
 
     --fonte-titulo: 'Ubuntu', sans-serif;
     --fonte-principal: 'Montserrat', sans-serif;
@@ -38,7 +39,7 @@
 }
 
 .cabecalho__menu__link:hover{
-    color: #229afd;
+    color: var(--cor-hover);
 }
 
 .cabecalho__menu__link:active{
@@ -171,7 +172,7 @@ body{
 }
 
 .apresentacao__links__link:hover{
-        background-color: #272727;
+        background-color: var(--cor-hover);
 
 }
 
