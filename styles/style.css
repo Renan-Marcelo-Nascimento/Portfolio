@@ -113,7 +113,16 @@ body{
 .curriculo__conteudo__habilidade{
     font-size: 18px;
     font-family: 'Montserrat', sans-serif;
+    list-style: none; 
+    position:relative;  
+    margin:0;           
+    padding:0;
+    width:100%;         
+    height:100%; 
+
 }
+
+
 
 
 .apresentacao__links{
