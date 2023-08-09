@@ -203,10 +203,20 @@ body{
 }
 
 @media(max-width: 860px) {
+    .cabecalho{
+        padding: 10%;
+    }
+
+    .cabecalho__menu{
+        justify-content: center;
+    
+    }
+    
     .apresentacao{
         flex-direction: column-reverse;
         width: 80%;
         gap: 82px;
+        
     }
 
     .curriculo{
@@ -214,4 +224,5 @@ body{
         width: 100%;
         gap: 82px;
     }
+    
 }
