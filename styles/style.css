@@ -31,7 +31,7 @@
 
 .cabecalho__menu__link{
     font-family: var(--fonte-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-terciaria);
     text-decoration: none;
@@ -107,22 +107,22 @@ body{
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-titulo);
 }
 
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-principal);
 }
 
 .curriculo__conteudo__texto{
-    font-size: 20px;
+    font-size: 1.25rem;
     font-family: var(--fonte-principal);
 }
 
 .curriculo__conteudo__experiencia{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: var(--fonte-principal);
     list-style: none; 
     display: flex;
@@ -131,7 +131,7 @@ body{
 }
 
 .curriculo__conteudo__habilidade{
-    font-size: 18px;
+    font-size: 1.125rem;
     font-family: var(--fonte-principal);
     list-style: none; 
     display: flex;
@@ -152,7 +152,7 @@ body{
 .apresentacao__links__subtitulo{
     font-family: var(--fonte-titulo);
     font-weight: 400;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 .apresentacao__links__link{
@@ -195,6 +195,6 @@ body{
     padding: 24px;
     text-align: center;
     font-family: var(--fonte-principal);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
 }
