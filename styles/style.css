@@ -222,10 +222,19 @@ body{
         
     }
 
+    .apresentacao__conteudo{
+        width: auto;
+    }
+
     .curriculo{
         flex-direction: column-reverse;
-        width: 100%;
+        width: 90%;
         gap: 82px;
+        padding: 5%;
     }
-    
+
+    .curriculo__conteudo{
+        width: auto;
+        flex-grow: 1;
+    }
 }
