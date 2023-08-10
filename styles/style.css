@@ -204,18 +204,21 @@ body{
 
 @media(max-width: 860px) {
     .cabecalho{
-        padding: 10%;
+        padding: 5%;
+        
     }
+
 
     .cabecalho__menu{
         justify-content: center;
-    
+        gap: 40px;
     }
     
     .apresentacao{
         flex-direction: column-reverse;
-        width: 80%;
+        width: 90%;
         gap: 82px;
+        padding: 5%;
         
     }
 
